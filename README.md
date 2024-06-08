@@ -31,6 +31,7 @@
 
       
 **Задание 2  **
+
    Service "users"
    
       EndPoint1: (PATCH) /users/solve-problem/id
