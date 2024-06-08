@@ -30,7 +30,7 @@
       (по умолчанию page=1; take=50)
 
       
-**Задание 2  **
+**Задание 2**
 
    Service "users"
    
@@ -39,7 +39,7 @@
       Созддает новую запись "действия с пользоватлем"
       Возвращает количество клиентов с проблемой (hasProblem=true)
 
-База данныз POSTGRESQL
+   База данныз POSTGRESQL
 
       Migration database: typeorm
       1/Создавать таблицы в базеданных [Users,ActionsRecord,Migrations]
