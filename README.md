@@ -47,5 +47,6 @@
       
       bash: npm run migration:run
 
+PS:
       \*:required (Объязательный параметр)
       \?:optional (Необъязательный параметр)
