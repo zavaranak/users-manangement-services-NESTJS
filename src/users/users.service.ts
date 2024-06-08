@@ -72,6 +72,10 @@ export class UserService {
 
   async solve(id: number) {
     await this.userRepository.update(id, { hasProblem: false })
+    const newAction = new CreateActionsRecordDto();
+    newAction.action = Actions.hasProblem;
+    newAction.userID = id;
+    this.actionRecordService.create(newAction);
     return this.userRepository.createQueryBuilder('user').where(`user.hasProblem= :flag`, { flag: true }).getCount()
   }
 }
